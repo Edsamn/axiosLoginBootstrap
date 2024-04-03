@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary p-0">
+      <div class="container-fluid bg-primary">
+        <img src="../img/layers.png" />
+      </div>
+    </nav>
+    <main class="mainContent container-fluid d-flex align-items-center p-0">
+      <div class="row">
+        <div class="col p-0 mb-1">
+          <h1>Login de usuário</h1>
+          <small>Faça o login na nossa plataforma</small>
+        </div>
+        <div class="d-flex justify-content-between p-0 mb-3">
+          <button type="button" class="btn btn-primary" id="buttonFace">LOGIN COM FACEBOOK</button>
+          <button type="button" class="btn btn-primary" id="buttonGoogle">LOGIN COM GOOGLE</button>
+        </div>
+        <div class="row">
+          <div class="col-12 p-0">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="emailInput" placeholder="Email do usuário" />
+              <label for="emailInput" class="form-label">Email do usuário</label>
+            </div>
+          </div>
+          <div class="col-12 p-0">
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="passwordInput" placeholder="Senha do usuário" />
+              <label for="passwordInput" class="form-label">Senha do usuário</label>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary" id="createbutton">Cadastrar</button>
+          <small>Não possui conta? Faça o <a href="./index.html">cadastro</a>.</small>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
