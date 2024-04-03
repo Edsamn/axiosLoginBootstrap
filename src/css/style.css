@@ -16,3 +16,7 @@ h1 {
 .navbar {
   height: 2vh;
 }
+
+#buttonGoogle {
+  margin-right: 25px;
+}
