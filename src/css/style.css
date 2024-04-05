@@ -10,11 +10,7 @@ h1 {
 
 .mainContent {
   width: 40%;
-  height: 98vh;
-}
-
-.navbar {
-  height: 2vh;
+  height: 100vh;
 }
 
 #buttonGoogle {
